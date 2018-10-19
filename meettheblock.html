@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Join Meet The Block and Meet your Neighbors!</title>
+        <style  type="text/css">      h1 {color: ;}    </style>
+        <link rel="stylesheet" type="text/css" href="http://code.raymercedes.com/Meet%20The%20Block/styles.css"/>
+    </head>
+
+    <body>
+        <div class="Verify">
+
+            <h1>Address Verification</h1>
+
+            <form action="verifyaddress.php" method="post">
+
+                <input type="radio" name="requestcode" value="Entercode"/> Enter your code
+                <input type="radio" name="requestcode" value="Requestcode"/> Request your code
+                <br>
+                <br>
+                      <h3>Enter your first name </h3>
+                <input type="text" size=20 name="firstname" /> <br>
+                
+                 <h3>Enter your last name </h3>
+
+                <input type="text" size=20 name="lastname" />
+                <h3>Enter your physical address </h3>
+                <input type="text" size=40 name="address">
+                <br><br>
+
+                <div class="verifybutton" >
+                    <input type="submit" value="Verify Address">
+                    <input type="hidden" name= "Submitted" value="True"/>
+                </div>
+
+            </form>
+       </div>
+
+
+   </body>
+</html>
